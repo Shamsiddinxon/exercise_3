@@ -8,7 +8,7 @@ const todos = [];
 elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   let todoValue = elFormInputTodo.value;
-  elResultTitle.textContent = `Salom ${elFormInputTodo.value} sizning rejalaringiz:`;
+  elResultTitle.textContent = `Salom ${elFormInputName.value} sizning rejalaringiz:`;
 
   let todo = {
     name: todoValue,
